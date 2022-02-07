@@ -6,8 +6,7 @@ import java.io.*;
  *  최대 길이는 2000문자를 넘지 않음
  *  출력 : 입력 그대로 출력
  *  입력예시) Programming is very fun!! -> 출력예시) Programming is very fun!!
- * */
-public class io_1022 {
+ * */public class io_1022 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String word = br.readLine();
@@ -16,3 +15,4 @@ public class io_1022 {
         bw.flush();;
     }
 }
+
