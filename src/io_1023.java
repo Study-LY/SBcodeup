@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class io_1023 {
     public static void main(String[] args) {
         System.out.print("실수 1개를 입력하시오 : ");
-        Scanner sc = new Scanner(System.in);
-        String[] i = sc.next().split("\\.");
+        Scanner sc = new Scanner(System.in); //scanner 객체 생성
+        String[] i = sc.next().split("\\."); //사용자가 입력한 단어를 구분자(".")기준으로 나눠 배열 i 에 각각 담기
 
-        for(String a : i) {
-            System.out.println(a);
+        for(String a : i) { //a가 i가 있는 만큼
+            System.out.println(a); //개행하여 출력
         }
     }
 }
